@@ -39,6 +39,27 @@ INTERFACE = "Ethernet"
 print("방화벽 실행 중... 패킷 감시 시작")
 sniff(prn=packet_callback, iface=INTERFACE, store=0)
 ```
+
+변수 Rule Set 를 뭘로 할지 고민
+```
+출발지 ip
+출발지 포트
+
+목적지 ip
+목적지 포트
+
+지속시간
+
+건수
+
+탐지 시간
+
+탐지명
+
+분석룰셋
+```
+
+
 차단할 ip 목록을 엑셀 파일로 전달
 포트를 엑셀파일로 전달
 
