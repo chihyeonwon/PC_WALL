@@ -58,16 +58,19 @@ sniff(prn=packet_callback, iface=INTERFACE, store=0)
 
 분석룰셋
 ```
-출발지 IP	src_ip
-출발지 포트	src_port
-목적지 IP	dst_ip
-목적지 포트	dst_port
-지속시간	duration
-탐지시간	detection_time
-메소드명	method_name
-분석 룰셋명	analysis_ruleset
-상태 코드	status_code
-프로파일	profile
+| 한글 변수명  | 영어 변수명         |
+|------------|------------------|
+| 출발지 IP   | `src_ip`        |
+| 출발지 포트 | `src_port`      |
+| 목적지 IP   | `dst_ip`        |
+| 목적지 포트 | `dst_port`      |
+| 지속시간   | `duration`      |
+| 탐지시간   | `detection_time` |
+| 메소드명   | `method_name`    |
+| 분석 룰셋명 | `analysis_ruleset` |
+| 상태 코드   | `status_code`   |
+| 프로파일   | `profile`       |
+
 
 차단할 ip 목록을 엑셀 파일로 전달
 포트를 엑셀파일로 전달
