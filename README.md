@@ -39,3 +39,7 @@ INTERFACE = "Ethernet"
 print("방화벽 실행 중... 패킷 감시 시작")
 sniff(prn=packet_callback, iface=INTERFACE, store=0)
 ```
+차단할 ip 목록을 엑셀 파일로 전달
+포트를 엑셀파일로 전달
+
+조건에 따라 차단
